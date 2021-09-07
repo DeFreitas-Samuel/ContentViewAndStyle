@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContentViewAndStyle.Views.Pages.TabbedHomePage"
+            xmlns:local="clr-namespace:ContentViewAndStyle.Views.Pages"
+            Title="Coin Management"
+            BarBackground="#BDF0B1"
+            BarTextColor="Black">
+    <local:MainPage/>
+    <local:NearbyATMsPage/>
+    <local:StockMarketPage/>
+</TabbedPage>

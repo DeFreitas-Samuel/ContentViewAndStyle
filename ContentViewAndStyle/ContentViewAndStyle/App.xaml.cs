@@ -11,7 +11,11 @@ namespace ContentViewAndStyle
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new TabbedHomePage())
+            {
+                BarBackgroundColor = Color.FromHex("#BDF0B1"),
+                BarTextColor = Color.Black
+            };
         }
 
         protected override void OnStart()
