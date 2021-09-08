@@ -7,6 +7,6 @@
             BarBackground="#BDF0B1"
             BarTextColor="Black">
     <local:MainPage/>
-    <local:NearbyATMsPage/>
+    <local:NearbyAutomatedTellerMachinesPage/>
     <local:StockMarketPage/>
 </TabbedPage>

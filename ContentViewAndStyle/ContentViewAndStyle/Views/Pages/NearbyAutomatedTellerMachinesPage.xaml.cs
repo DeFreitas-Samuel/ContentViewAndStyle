@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace ContentViewAndStyle.Views.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class NearbyATMsPage : ContentPage
+    public partial class NearbyAutomatedTellerMachinesPage : ContentPage
     {
-        public NearbyATMsPage()
+        public NearbyAutomatedTellerMachinesPage()
         {
             InitializeComponent();
         }

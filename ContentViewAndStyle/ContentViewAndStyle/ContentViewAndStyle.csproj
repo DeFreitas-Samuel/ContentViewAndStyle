@@ -16,13 +16,19 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\Pages\NearbyAutomatedTellerMachinesPage.xaml.cs">
+      <DependentUpon>NearbyAutomatedTellerMachinesPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="Views\MenuItemView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Pages\MainPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\Pages\NearbyATMsPage.xaml">
+    <EmbeddedResource Update="Views\Pages\NearbyAutomatedTellerMachinesPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Pages\StockMarketPage.xaml">

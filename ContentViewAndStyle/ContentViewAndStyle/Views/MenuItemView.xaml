@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ContentViewAndStyle.Views.MenuItemView">
     <StackLayout>
-        <Image Source="{Binding Image}" Style="{StaticResource ImageBankingButton}"/>
-        <Label Text="{Binding Name}" Style="{StaticResource NameBankingButton}"/>
-        <Label Text="{Binding Detail}" Style="{StaticResource DetailBankingButton}"/>
+        <Image Source="{Binding Image}" Style="{StaticResource ImageBankingButtonStyle}"/>
+        <Label Text="{Binding Name}" Style="{StaticResource NameBankingButtonStyle}"/>
+        <Label Text="{Binding Detail}" Style="{StaticResource DetailBankingButtonStyle}"/>
     </StackLayout>
 </Frame>
